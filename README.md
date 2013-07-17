@@ -1,5 +1,5 @@
 # jcompressor
-jcompressor is A [Closure Compliler](https://developers.google.com/closure/compiler)-based JavaScript compressor (node package) that compresses all .js files in the current directory *(JRE, Node.js and npm is required)*.
+jcompressor is a [Closure Compliler](https://developers.google.com/closure/compiler)-based JavaScript compressor (node package) that compresses all .js files in the current directory *(JRE, Node.js and npm is required)*.
 
 ## Usage
 ### Install jcompressor
