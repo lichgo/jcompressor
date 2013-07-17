@@ -2,7 +2,7 @@
   "author": "lichgo<lichgo88@gmail.com> ",
   "name": "jcompressor",
   "description": "A Closure Compliler-based JavaScript compressor that compresses all .js files in the current directory.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "url": "https://github.com/lichgo/jcompressor.git"
   },

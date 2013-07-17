@@ -10,7 +10,9 @@ jcompressor is A [Closure Compliler](https://developers.google.com/closure/compi
 
 1. Direct to the project folder where you would like to compress 
 2. Drop into the Node REPL by executing
-    node
+
+        node
+
 3. Executing the line below with optimal parameters for `.compress()` function (see #API)
 
         require('jcompressor').compress();
@@ -34,4 +36,5 @@ Take /PATH/TO/example.js as an example:
     
     require('jcompressor').compress('', '_v1');
     //  /PATH/TO/example_v1.js
+
 
