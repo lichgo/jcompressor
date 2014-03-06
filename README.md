@@ -28,13 +28,14 @@ jcompressor is a [Closure Compliler](https://developers.google.com/closure/compi
 
 Take /PATH/TO/example.js as an example:  
 
-    require('jcompressor').compress();
-    //  /PATH/TO/example-min.js
+```js
+require('jcompressor').compress();
+//  /PATH/TO/example-min.js
     
-    require('jcompressor').compress('cc-', null, false);
-    //  /PATH/TO/cc-example-min.js, /PATH/TO/example.js (Still survives!)
+require('jcompressor').compress('cc-', null, false);
+//  /PATH/TO/cc-example-min.js, /PATH/TO/example.js (Still survives!)
     
-    require('jcompressor').compress('', '_v1');
-    //  /PATH/TO/example_v1.js
-
+require('jcompressor').compress('', '_v1');
+//  /PATH/TO/example_v1.js
+```
 
